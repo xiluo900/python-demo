@@ -2,7 +2,7 @@ import time
 import numpy as np
 from utils import DataWriter
 
-#创建一个监控对象
+#创建一个监控对象，用于传输数据。
 cisco_writer = DataWriter()
 
 # CPU使用率、内存利用率、
